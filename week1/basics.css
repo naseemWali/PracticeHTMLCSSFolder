@@ -1,0 +1,119 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    background-image: url('pexels-pixabay-416778.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-color: azure;
+    font-family: "Satisfy", cursive;
+}
+
+
+.left{
+ /* border: 2px solid red; */
+ color: aliceblue;
+ display: inline-block;
+ position: absolute;
+ top: 30px;
+ left:  60px;
+ 
+}
+.left img{
+    width: 136px;
+    
+}
+
+.left div{
+    text-align: center;
+    font-size: 20px;
+}
+
+.mid{
+ /* border: 2px solid green; */
+ color: aliceblue;
+ display: block;
+ width: 33%;
+ margin: 40px auto;
+}
+.right{
+ /* border: 2px solid yellowgreen; */
+ color: aliceblue;
+ display: inline-block;
+ position: absolute;
+ top: 40px;
+ right: 34px;
+}
+.navbar li{
+ display: inline-block;
+ list-style: none;
+ 
+}
+.navbar li a{
+    color: rgb(248, 252, 252);
+    padding: 34px 23px;
+    font-size: 24px;
+   text-decoration: none; 
+}
+.navbar li a:hover ,.nabar li a.active{
+ color: rgb(139, 247, 31);
+ 
+}
+.butn{
+    background-color: white;
+    color: rgb(7, 7, 7);
+    margin: 0px 9px ;
+    padding: 4px 25px;   
+    border-radius: 3px;
+    font-size: 25px;
+    cursor: pointer;
+    font-family: "Satisfy", cursive;
+}
+.butn:hover{
+    background-color: black;
+    color: aliceblue;
+}
+#stn1{
+    text-decoration: underline; 
+}
+.container{
+  border: 2px solid white; 
+  margin: 150px 150px; 
+  color: rgb(255, 252, 252);
+  width: 27%;
+  border-radius: 28px;
+  padding: 55px; 
+}
+.container h1{
+    text-align: center; 
+       
+}
+
+.form-group input{
+    text-align: center;
+    display: block;
+    width: 507px;
+    margin: 10px auto;
+    border: 2px solid white;
+    padding: 12px 20px;
+    font-size: 20px;
+    font-family: "Satisfy", cursive;
+    border-radius: 30px;
+    color: white  
+}
+.container button{
+    display: block;
+    width: 103%;
+    margin:  auto ;
+    padding: 19px 40px;
+    border-radius: 30px;
+    text-align: center;    
+}
+.container button:hover{
+    background-color: black;
+    color: aliceblue;
+}
+.form-group input:hover{
+    background-color: rgb(16, 15, 15);    
+}
+
+
