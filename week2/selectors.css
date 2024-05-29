@@ -1,0 +1,10 @@
+div >p{
+    color: blue;
+    font-weight: bold;
+}
+div li p{
+    color: black;
+}
+div li {
+    color: pink;
+}

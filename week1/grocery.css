@@ -1,0 +1,38 @@
+.container{
+width: 900px;
+border:3px solid black;
+margin: 50px auto;
+font-family:  "Whisper", cursive;;
+font-style: normal;
+}
+.item{
+   border: 3px solid grey; 
+   margin: 12px 3px;
+   padding:12px 3px;
+   background-color: rgb(235, 225, 225);
+
+}
+#fruits{
+width: 48%;
+float: left;
+}
+
+#computer{
+    float: left;
+    width: 48%;
+    float: left;
+
+}
+
+#stationary{
+    /* float: left; */
+    width: 100%;
+    clear: both;
+}
+.items,h3{
+    text-align: center;
+}
+.items,p{
+    text-align: center;
+}
+

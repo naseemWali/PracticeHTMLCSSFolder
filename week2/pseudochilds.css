@@ -1,0 +1,40 @@
+body{
+    background-color: black;
+    color: white;
+    /* margin: 0px; */
+    /* padding: 0px; */
+    background: url('pexels-cesar-galeao-1673528-3253501.jpg') no-repeat;
+    background-size: cover;
+    opacity: 0.9;
+}
+.navigation{
+    display: flex;
+    font-size: 20px;
+    font-family: "Lilita One", sans-serif;
+}
+li{
+    padding: 20px 23px;
+    list-style: none;
+    font-size: 25px;
+}
+section{
+    /* border: 2px solid red; */
+    align-items: center;
+    margin: 3px 23px;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    height: 344px;
+
+}
+/* section ::before{
+    content: "this is new content";
+} */
+h1{
+   font-size: 4rem; 
+   font-family: "Jersey 15 Charted", sans-serif;
+}
+p{
+    text-align: center;
+    font-family: "Jersey 15 Charted", sans-serif;
+}
