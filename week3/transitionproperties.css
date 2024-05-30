@@ -1,0 +1,26 @@
+body{
+    background-color: black;
+}
+
+
+#box{
+    height: 200px;
+    width: 200px;
+    background-color: brown;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* transition: color ;
+    transition-duration: 12s;
+    transition-timing-function: ease-in;
+    transition-delay: 2s; */
+    transition: 12s color ease-in 12s all;
+    
+}
+#box:hover{
+ background-color: rgb(236, 242, 242);
+ height: 400px;
+ width: 400px;
+ border-radius: 100px;
+ font-size: 45px;
+}

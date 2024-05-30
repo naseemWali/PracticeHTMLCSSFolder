@@ -1,0 +1,15 @@
+.container{
+    display: flex;
+}
+.card{
+    padding: 23px 12px;
+    /* border: 2px solid red; */
+    margin: 23px 12px;
+    background-color: burlywood;
+    box-shadow: -10px -12px 10px 18px blueviolet;
+    text-shadow: 3px 2px 6px white;
+}
+/* properties of text shadow */
+/* box-shadow:offset-x  Offset-y color; */
+/* box-shadow:offset-x offset-y blur-radius color; */
+/* box-shadow:offset-x offset-y blur-radius spread-radius color; */
